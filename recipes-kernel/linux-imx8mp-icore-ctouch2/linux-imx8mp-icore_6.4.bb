@@ -12,6 +12,7 @@ SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git;bra
            file://0001-arm64-dts-freescale-Add-Engicam-i.Core-MX8M-Plus-C.T.patch \
            file://0002-dt-bindings-arm-fsl-Add-Engicam-i.Core-MX8M-Plus-C.T.patch \
            file://${THISDIR}/files/fsl-ctouch-display-enable.cfg \
+           file://${THISDIR}/files/fsl-gpu-imx8mp-enable.cfg \
 "
 
 LOCALVERSION = "-2.2.0+yocto"
